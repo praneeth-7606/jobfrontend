@@ -11,6 +11,8 @@ import Layout from "./layout/layout";
 import { useAuth } from "./context/auth";
 import image from "./login.gif"
 import styles from "./styles.module.css";
+import loginbg from './components/loginbg.png';
+
 // import { GoogleLogin } from 'react-google-login';
 // import google from"./public/images/google.png"/
 function Login() {

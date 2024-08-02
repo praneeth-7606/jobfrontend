@@ -22,14 +22,14 @@ body {
 
 .mylogin{
   color: #434343;
-  background-image:url("D:\mywebdevelopment\Job_portal\client\login\src\components\loginbg.png");
+  background-image:url("./components/loginbg.png");
   background-size: cover;
   min-height: 100vh;
 }
 
 .signup{
   color: #434343;
-  background-image:url("D:\mywebdevelopment\Job_portal\client\login\src\components\loginbg.png");
+  background-image:url("./components/loginbg.png");
   background-size: cover;
   min-height: 100vh;
   /* background-color: #000000; */

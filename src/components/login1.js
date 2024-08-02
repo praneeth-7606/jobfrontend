@@ -10,7 +10,9 @@ import axios from "axios";
 import {toast} from "react-toastify"
 import Layout from "./layout/layout";
 import { useAuth } from "./context/auth";
-// import   image  from  "./mypic.png"
+import loginbg from './components/loginbg.png';
+
+
 import image from "./login.gif"
 function Login1() {
     const [auth,setauth]=useAuth()
