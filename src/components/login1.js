@@ -10,7 +10,6 @@ import axios from "axios";
 import {toast} from "react-toastify"
 import Layout from "./layout/layout";
 import { useAuth } from "./context/auth";
-import loginbg from './components/loginbg.png';
 
 
 import image from "./login.gif"
