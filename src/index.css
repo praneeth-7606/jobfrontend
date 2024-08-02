@@ -20,21 +20,18 @@ body {
   border-bottom: solid gray !important;
 }
 
-.mylogin{
+.mylogin {
   color: #434343;
-  background-image:url("./components/loginbg.png");
-  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.8); /* Replace with your desired color and opacity */
   min-height: 100vh;
 }
 
-.signup{
+.signup {
   color: #434343;
-  background-image:url("./components/loginbg.png");
-  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5); /* Replace with your desired color and opacity */
   min-height: 100vh;
-  /* background-color: #000000; */
-  /* color: black; */
 }
+
 
 .nav-link:hover {
   color: white;
