@@ -2,16 +2,11 @@ import { useState } from "react";
 import { Form, Button, Card } from "react-bootstrap";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useNavigate } from "react-router-dom";
-import EmailIcon from '@mui/icons-material/Email';
 import KeyIcon from '@mui/icons-material/Key';
 import axios from "axios";
 import { toast } from "react-toastify"
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import Layout from "./layout/layout";
 import { useAuth } from "./context/auth";
-import image from "./login.gif"
-import styles from "./styles.module.css";
-import loginbg from './components/loginbg.png';
 
 // import { GoogleLogin } from 'react-google-login';
 // import google from"./public/images/google.png"/
