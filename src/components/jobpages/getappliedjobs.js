@@ -345,7 +345,7 @@ const AppliedJobsList = () => {
   useEffect(() => {
     const fetchAppliedJobs = async () => {
       try {
-        const response = await axios.get(`http://localhost:3002/api/route/appliedjob/apply/${userId}`, {
+        const response = await axios.get(`https://jobserver-1.onrender.com/api/route/appliedjob/apply/${userId}`, {
           headers: {
             Authorization: `Bearer ${auth.token}`
           }
